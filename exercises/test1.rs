@@ -8,7 +8,15 @@
 // the price of an order of apples given the order amount. No hints this time!
 
 // Put your function here!
-// fn ..... {
+fn calculate_price(num_of_apples: i32) -> i32 {
+    let mut apple_cost = 2;
+
+    if num_of_apples > 40 { 
+        apple_cost = 1;
+    }
+
+    apple_cost * num_of_apples
+}
 
 // Don't modify this function!
 #[test]
