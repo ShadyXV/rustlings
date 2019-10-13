@@ -10,7 +10,9 @@
 mod tests {
     #[test]
     fn you_can_assert() {
-        assert!();
+        let a = 2;
+        let b = 3;
+        assert!(a + b == 5, "{} + {} = 5", a, b);
     }
 }
 
